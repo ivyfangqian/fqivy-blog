@@ -4,8 +4,8 @@ import com.fqivy.spring.boot.blog.fqivyblog.domain.User;
 import com.fqivy.spring.boot.blog.fqivyblog.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
 /**

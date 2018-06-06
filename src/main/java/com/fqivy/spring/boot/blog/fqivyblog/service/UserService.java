@@ -2,9 +2,9 @@ package com.fqivy.spring.boot.blog.fqivyblog.service;
 
 import com.fqivy.spring.boot.blog.fqivyblog.domain.User;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
 /**

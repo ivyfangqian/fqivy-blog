@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      th:fragment="header">
+<head>
+    <meta charset="UTF-8">
+    <title>Fqivy Blog</title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link herf="../../css/blog.css" rel="stylesheet">
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <div class="row">
+            <h1>Fqivy Blog</h1>
+
+            <nav class="nav blog-nav">
+                <a class="nav-link active" herf="/users">首页</a>
+                <a class="nav-link" herf="/users">其他</a>
+            </nav>
+        </div>
+    </div>
+</div>
+</body>
+</html>
